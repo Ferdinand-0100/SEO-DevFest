@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/styles.css">
+
+    <meta name="description" content="Welcome to our SEO Services website. We provide professional SEO services to improve your website's search engine rankings and increase organic traffic.">
+    <meta name="keywords" content="SEO, search engine optimization, digital marketing, SEO services, SEO strategies, increase website traffic">
+    <meta name="author" content="Your Company Name">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="SEO Services for Better Rankings">
+    <meta property="og:description" content="Get professional SEO services that will help boost your website’s visibility and rankings on search engines.">
+    <meta property="og:image" content="path/to/your-image.jpg">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <title>SEO Services for Better Rankings | Your Company</title>
+    <link rel="icon" href="path/to/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Our SEO Services</h1>
+        <p>Your trusted partner in improving your website's search engine rankings and driving organic traffic.</p>
+        <p>Enter the name of your website and we'll analyze it for you!</p>
+        
+        <!-- Fixed input field for the website's name -->
+        <form id="seo-form">
+            <label for="website-name">Website Name:</label>
+            <input type="text" id="website-name" name="website_url" required placeholder="Enter your website name or URL">
+            <button type="submit">Analyze Website</button>
+        </form>
+        
+        <div id="loader" style="display: none;">Loading...</div>
+        <!-- Area to display the result of the analysis (obsolete)-->
+        <div id="result"></div> 
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in delivering top-notch SEO strategies tailored to meet the unique needs of your business. Our team of experts ensures that your website ranks high on search engines and attracts quality visitors.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our SEO Services</h2>
+        <ul>
+            <li>
+                <h3>Keyword Research</h3>
+                <p>Discover the best keywords to target for your industry and audience.</p>
+            </li>
+            <li>
+                <h3>On-Page Optimization</h3>
+                <p>Optimize your website’s content, images, and HTML tags to improve rankings.</p>
+            </li>
+            <li>
+                <h3>Link Building</h3>
+                <p>Build high-quality backlinks to improve your website's authority and trustworthiness.</p>
+            </li>
+            <li>
+                <h3>Technical SEO</h3>
+                <p>Ensure your website is fast, secure, and easy for search engines to crawl.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you're ready to take your website to the next level, get in touch with us!</p>
+        <form id="contact-form" action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <button type="submit" id="send-message">Send Message</button>
+        </form>        
+    </section>
+    <script src="static/js/script.js" defer></script>
+</body>
+
+</html>
